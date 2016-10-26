@@ -1,0 +1,35 @@
+﻿2016/10/27 8:10:08 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "I:\大学での学習関連\3年\プログラミング～OpenGL～\SpaceShooting\SpaceShooting.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt draw.cpp init.cpp main.cpp raw.cpp texture.cpp
+         texture.cpp
+     1>i:\大学での学習関連\3年\プログラミング～opengl～\spaceshooting\texture.cpp(30): warning C4305: '引数': 'double' から 'GLclampf' へ切り詰めます。
+         raw.cpp
+     1>i:\大学での学習関連\3年\プログラミング～opengl～\spaceshooting\raw.cpp(11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: 'fopen' の宣言を確認してください
+         main.cpp
+         init.cpp
+     1>i:\大学での学習関連\3年\プログラミング～opengl～\spaceshooting\init.cpp(17): warning C4838: 'double' から 'GLfloat' への変換には縮小変換が必要です
+     1>i:\大学での学習関連\3年\プログラミング～opengl～\spaceshooting\init.cpp(17): warning C4305: '初期化中': 'double' から 'GLfloat' へ切り詰めます。
+     1>i:\大学での学習関連\3年\プログラミング～opengl～\spaceshooting\init.cpp(18): warning C4838: 'double' から 'GLfloat' への変換には縮小変換が必要です
+     1>i:\大学での学習関連\3年\プログラミング～opengl～\spaceshooting\init.cpp(18): warning C4305: '初期化中': 'double' から 'GLfloat' へ切り詰めます。
+         draw.cpp
+     1>i:\大学での学習関連\3年\プログラミング～opengl～\spaceshooting\draw.cpp(13): warning C4838: 'double' から 'GLfloat' への変換には縮小変換が必要です
+     1>i:\大学での学習関連\3年\プログラミング～opengl～\spaceshooting\draw.cpp(225): warning C4838: 'double' から 'GLfloat' への変換には縮小変換が必要です
+     1>i:\大学での学習関連\3年\プログラミング～opengl～\spaceshooting\draw.cpp(227): warning C4838: 'double' から 'GLfloat' への変換には縮小変換が必要です
+     1>i:\大学での学習関連\3年\プログラミング～opengl～\spaceshooting\draw.cpp(423): warning C4838: 'double' から 'GLfloat' への変換には縮小変換が必要です
+         コードを生成中...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"I:\大学での学習関連\3年\プログラミング～OpenGL～\SpaceShooting\Debug\SpaceShooting.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SpaceShooting.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /Debug /PDB:"I:\大学での学習関連\3年\プログラミング～OpenGL～\SpaceShooting\Debug\SpaceShooting.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:\大学での学習関連\3年\プログラミング～OpenGL～\SpaceShooting\Debug\SpaceShooting.lib" /MACHINE:X86 Debug\draw.obj
+         Debug\init.obj
+         Debug\main.obj
+         Debug\raw.obj
+         Debug\texture.obj
+         SpaceShooting.vcxproj -> I:\大学での学習関連\3年\プログラミング～OpenGL～\SpaceShooting\Debug\SpaceShooting.exe
+       Manifest:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\mt.exe /nologo /verbose /out:"I:\大学での学習関連\3年\プログラミング～OpenGL～\SpaceShooting\Debug\SpaceShooting.exe.manifest" /manifest Debug\SpaceShooting.exe.intermediate.manifest
+     1>プロジェクト "I:\大学での学習関連\3年\プログラミング～OpenGL～\SpaceShooting\SpaceShooting.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:04.42

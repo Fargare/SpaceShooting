@@ -1,0 +1,52 @@
+﻿2016/06/29 21:52:49 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "G:\大学での学習関連\3年\プログラミング～OpenGL～\SpaceShooting\SpaceShooting.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt draw.cpp init.cpp main.cpp raw.cpp texture.cpp
+         draw.cpp
+     1>draw.cpp(13): warning C4838: 'double' から 'GLfloat' への変換には縮小変換が必要です
+     1>draw.cpp(225): warning C4838: 'double' から 'GLfloat' への変換には縮小変換が必要です
+     1>draw.cpp(227): warning C4838: 'double' から 'GLfloat' への変換には縮小変換が必要です
+     1>draw.cpp(423): warning C4838: 'double' から 'GLfloat' への変換には縮小変換が必要です
+         init.cpp
+     1>init.cpp(17): warning C4838: 'double' から 'GLfloat' への変換には縮小変換が必要です
+     1>init.cpp(17): warning C4305: '初期化中': 'double' から 'GLfloat' へ切り詰めます。
+     1>init.cpp(18): warning C4838: 'double' から 'GLfloat' への変換には縮小変換が必要です
+     1>init.cpp(18): warning C4305: '初期化中': 'double' から 'GLfloat' へ切り詰めます。
+         main.cpp
+         raw.cpp
+     1>raw.cpp(11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 'fopen' の宣言を確認してください
+         texture.cpp
+     1>texture.cpp(30): warning C4305: '引数': 'double' から 'GLclampf' へ切り詰めます。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\大学での学習関連\3年\プログラミング～OpenGL～\SpaceShooting\Release\SpaceShooting.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"G:\大学での学習関連\3年\プログラミング～OpenGL～\SpaceShooting\Release\SpaceShooting.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\大学での学習関連\3年\プログラミング～OpenGL～\SpaceShooting\Release\SpaceShooting.lib" /MACHINE:X86 /SAFESEH Release\draw.obj
+         Release\init.obj
+         Release\main.obj
+         Release\raw.obj
+         Release\texture.obj
+         コード生成しています。
+         All 46 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         コード生成が終了しました。
+     1>glut32.lib(glut32.dll) : error LNK2026: モジュールは SAFESEH イメージには安全ではありません。
+     1>glut32.lib(glut32.dll) : error LNK2026: モジュールは SAFESEH イメージには安全ではありません。
+     1>glut32.lib(glut32.dll) : error LNK2026: モジュールは SAFESEH イメージには安全ではありません。
+     1>glut32.lib(glut32.dll) : error LNK2026: モジュールは SAFESEH イメージには安全ではありません。
+     1>glut32.lib(glut32.dll) : error LNK2026: モジュールは SAFESEH イメージには安全ではありません。
+     1>glut32.lib(glut32.dll) : error LNK2026: モジュールは SAFESEH イメージには安全ではありません。
+     1>glut32.lib(glut32.dll) : error LNK2026: モジュールは SAFESEH イメージには安全ではありません。
+     1>glut32.lib(glut32.dll) : error LNK2026: モジュールは SAFESEH イメージには安全ではありません。
+     1>glut32.lib(glut32.dll) : error LNK2026: モジュールは SAFESEH イメージには安全ではありません。
+     1>glut32.lib(glut32.dll) : error LNK2026: モジュールは SAFESEH イメージには安全ではありません。
+     1>glut32.lib(glut32.dll) : error LNK2026: モジュールは SAFESEH イメージには安全ではありません。
+     1>glut32.lib(glut32.dll) : error LNK2026: モジュールは SAFESEH イメージには安全ではありません。
+     1>glut32.lib(glut32.dll) : error LNK2026: モジュールは SAFESEH イメージには安全ではありません。
+     1>glut32.lib(glut32.dll) : error LNK2026: モジュールは SAFESEH イメージには安全ではありません。
+     1>glut32.lib(glut32.dll) : error LNK2026: モジュールは SAFESEH イメージには安全ではありません。
+     1>glut32.lib(glut32.dll) : error LNK2026: モジュールは SAFESEH イメージには安全ではありません。
+     1>glut32.lib(glut32.dll) : error LNK2026: モジュールは SAFESEH イメージには安全ではありません。
+     1>G:\大学での学習関連\3年\プログラミング～OpenGL～\SpaceShooting\Release\SpaceShooting.exe : fatal error LNK1281: SAFESEH イメージを生成できません。
+     1>プロジェクト "G:\大学での学習関連\3年\プログラミング～OpenGL～\SpaceShooting\SpaceShooting.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:02.76

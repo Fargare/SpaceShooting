@@ -1,0 +1,1 @@
+void set_texture(GLubyte texture_image[], GLuint *texture_id, int x_size, int y_size);

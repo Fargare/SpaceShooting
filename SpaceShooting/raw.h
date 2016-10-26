@@ -1,0 +1,1 @@
+void raw(char file_name[],   GLubyte image[],int x_size, int   y_size);
